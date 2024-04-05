@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tea Preference Quiz</title>
+</head>
+
+    
+    <div class="container">
+        <h2>Choose your tea!</h2>
+        <div class="tea-images">
+                <img src="jasmine.GIF">
+                <label for="jasmineGreen">Jasmine Green Milk Tea</label>
+         
+                <img src="earlgrey.GIF">
+                <label for="earlGrey">Earl Grey Milk Tea</label>
+
+                <img src="passion.GIF">
+                <label for="passionFruit">Passion Fruit Green Tea</label>
+
+                <img src="milkfoam.GIF">
+                <label for="milkFoamEarlGrey">Milk Foam Earl Grey</label>
+
+                <img src="taro.GIF">
+                <label for="taro">Taro Milk Tea</label>
+
+        </div>
+        <form id="teaForm">
+            <ul>
+                <li><input type="radio" id="jasmineGreen" name="tea" value="Jasmine Green Milk Tea"> <label for="jasmineGreen">Jasmine Green Milk Tea</label></li>
+                <li><input type="radio" id="earlGrey" name="tea" value="Earl Grey Milk Tea"> <label for="earlGrey">Earl Grey Milk Tea</label></li>
+                <li><input type="radio" id="passionFruit" name="tea" value="Passion Fruit Green Tea"> <label for="passionFruit">Passion Fruit Green Tea</label></li>
+                <li><input type="radio" id="milkFoamEarlGrey" name="tea" value="Milk Foam Earl Grey"> <label for="milkFoamEarlGrey">Milk Foam Earl Grey</label></li>
+                <li><input type="radio" id="taro" name="tea" value="Taro Milk Tea"> <label for="taro">Taro Milk Tea</label></li>
+            </ul>
+        </form>
+        <h1><a href="page2.html" id="q1_submit"><button>Next</button></a></h1>
+        <button onclick="goBack()">Go Back</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

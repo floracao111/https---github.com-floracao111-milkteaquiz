@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sugar & Ice Preference</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Sugar and ice level?</h2>
+        <div class="sugar-slider">
+            <label for="sugarLevel">Sugar Level: </label>
+            <input type="range" id="sugarLevel" name="sugarLevel" min="0" max="100" value="50">
+            <span id="sugarValue">50%</span>
+        </div>
+        <div class="ice-options">
+            <input type="radio" id="noIce" name="iceLevel" value="No Ice">
+            <label for="noIce">No Ice</label>
+            
+            <input type="radio" id="lessIce" name="iceLevel" value="Less Ice">
+            <label for="lessIce">Less Ice</label>
+            
+            <input type="radio" id="regularIce" name="iceLevel" value="Regular Ice" checked>
+            <label for="regularIce">Regular Ice</label>
+            
+            <input type="radio" id="warm" name="iceLevel" value="Warm">
+            <label for="warm">Warm</label>
+        </div>
+        <h1><a href="page4.html" id="q3_submit"><button>Next</button></a></h1>
+        <div>
+            <button onclick="goBack()">Go Back</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        const sugarLevel = document.getElementById('sugarLevel');
+        const sugarValue = document.getElementById('sugarValue');
+        
+        sugarLevel.addEventListener('input', (e) => {
+            sugarValue.textContent = e.target.value + '%';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Customize Your Order</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Customize Your Order</h2>
+        <div class="question">
+            <label for="teaLevel">Tea Level:</label>
+            <select id="teaLevel" name="teaLevel">
+                <option value="Regular">Regular</option>
+                <option value="Strong">Strong</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="milkType">Type of Milk:</label>
+            <select id="milkType" name="milkType">
+                <option value="Regular Milk">Regular Milk</option>
+                <option value="Skim Milk">Skim Milk</option>
+                <option value="Oat Milk">Oat Milk</option>
+                <option value="Almond Milk">Almond Milk</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="toppingsAmount">Amount of Toppings:</label>
+            <select id="toppingsAmount" name="toppingsAmount">
+                
+                <option value="Regular">Regular</option>
+                <option value="Less">Less</option>
+                <option value="Extra">Extra</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="needBag">Need a Bag:</label>
+            <select id="needBag" name="needBag">
+                <option value="No Bag">No Bag</option>
+                <option value="Plastic Bag">Plastic Bag</option>
+            </select>
+        </div>
+        <h1><a href="page5.html" id="q4_submit"><button>Next</button></a></h1>
+        <div>
+            <button onclick="goBack()">Go Back</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+
+
+</body>
+</html>

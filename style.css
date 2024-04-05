@@ -1,0 +1,66 @@
+body {
+    background-image: url('angelic.jpeg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: rgb(244, 248, 255);
+    text-shadow: 1px 1px 6px rgb(60, 79, 102);
+}
+
+.container {
+    text-align: center;
+    padding: 100px;
+}
+
+.tea-images{
+ filter: drop-shadow(0px 0px 5px rgb(11, 0, 62));
+ font-size: 16px;
+ text-shadow: 1px 1px 1px rgb(125, 143, 165);
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 30px rgb(104, 0, 0);
+    font-size: 100px;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 10px rgb(45, 59, 86);
+    font-size: 36px;
+    
+}
+
+
+
+button {
+    background-image: url('angelic.jpeg');
+    background-position: center;
+    color: rgb(227, 242, 253);
+    text-shadow: 2px 2px 10px rgb(15, 33, 68);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 10px 20px;
+    border: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color:rgb(248, 105, 105);
+}
+
+select {
+    padding: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(190, 212, 227);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(62, 95, 157);
+    text-shadow: 0px 0px 4px rgb(255, 255, 255);
+}
+
